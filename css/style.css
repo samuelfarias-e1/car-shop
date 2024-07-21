@@ -34,6 +34,51 @@ body{
     color: black;
     
 }
-.car img{
-    width: 700px ;
+
+    
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.car img{
+    width: 650px ;
+}
+.anun1{
+    margin-right: 50px;
+    font-size: 64px;
+    font-family: roboto;
+    font-weight: 900;
+    background-color: #39040B;
+    padding: 0 30px 0 30px ;
+    margin: 10px 40px 10px 0;
+    border-radius: 40px;
+    color: white;
+}
+
+.anun2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.anun2 p{
+    font-family: roboto;
+    font-weight: 900;
+    width: 350px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    
+
+    
+}
+.anun2 .p1, .p3{
+    background-color: #921122;
+}
+.anun2 .p2{
+    background-color: #241B1C;
+}
+
