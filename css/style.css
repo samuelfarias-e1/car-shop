@@ -81,4 +81,98 @@ body{
 .anun2 .p2{
     background-color: #241B1C;
 }
+@media only screen and (max-width:768px){
 
+    .container{
+        position: fixed;
+        gap: 100px;
+        
+    }
+    .container2{
+        flex-direction: column;
+        
+    }
+    .car .img{
+        width: 400px;
+        margin-top: 100px;
+        
+
+    }
+    .anun1{
+        justify-content: center;
+        width: 300px;
+        
+        margin-bottom: 30px;
+    }
+
+    .anun1 p{
+        font-size: 30px;
+
+    }
+
+    .anun2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+        
+    }
+    
+}
+@media only screen and (max-width:320px){
+
+    .container{
+        display: block;
+        background-color: #39040B;
+        color: white;
+    }
+    .logo{
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .menu{
+        gap: 10px;
+        text-align: center;
+        margin-left: 50px;
+        
+        
+    }
+    .menu a{
+        color: white;
+    }
+    .container2{
+        flex-direction: column;
+        
+        
+    }
+    .car .img{
+        width: 300px;
+        margin-top: 140px;
+        
+
+    }
+    .anun1{
+        justify-content: center;
+        width: 200px;
+        
+        margin-bottom: 80px;
+    }
+
+    .anun1 p{
+        font-size: 30px;
+
+    }
+
+    .anun2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .anun2 p{
+        width: 240px;
+    }
+    
+}
